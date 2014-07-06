@@ -1,0 +1,11 @@
+Versionshistorie
+17.11.2009	Erstveröffentlichung
+19.11.2009	Inkonsistente Verwendung der PL_PIDX_XXX-Makros korrigiert:
+		packetlib.h, Version 1.1: Makros PL_PIDX_OP1 und PL_PIDX_OP2 entfernt, PL_PIDX_OP(x) geändert
+		packetlib.c, Version 1.1: pl_make_packet() und pl_extr_packet() geändert
+01.12.2009	Makefiles von Client und Server korrigiert
+26.11.2010	Makefiles überarbeitet
+		timeoutlib.c, Version 1.1: Fehler in Funktion tol_stop_timeout() korrigiert
+
+
+Hinweis zum Kompilieren des Serverdienstes: Um Zugriff auf die uCLib zu erhalten, muss unter Windows vor dem Starten von eitlinux eine Verbindung in das Hochschulnetz hergestellt werden, z.B. durch Einwahl per VPN.
